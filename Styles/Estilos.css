@@ -1,8 +1,12 @@
 body{
     background-color: aquamarine;
+    cursor: cell ;
 }
 
 .nav{
+    display: block;
+    margin: auto;
+    cursor: help;
     background-color: rgb(194, 194, 221);
     text-decoration: double;
     color: aliceblue;
@@ -18,13 +22,13 @@ footer{
 }
 
 .zapa{
-    display: flex;
-    justify-content: center;
-}
-img{
+    display: block;
+    margin: auto;
+    border-radius: 10%;
     width: 35%;
     height: 35%;
 }
+
 .foot{
     text-align: left;
     justify-content: left;
