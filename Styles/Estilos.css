@@ -1,32 +1,43 @@
 body{
-    background-color: aquamarine;
+    background-image: url(/Imagenes/Fondo8.jpg);
+    background-size: auto;
     cursor: cell ;
 }
-
-.nav{
+.pipa{
     display: block;
     margin: auto;
-    cursor: help;
-    background-color: rgb(194, 194, 221);
-    text-decoration: double;
-    color: aliceblue;
-    text-align: center;
+    width: 50px;
+    height: 50px;
 }
 h1,h2{
+    color: black;
     font-style: oblique;
     text-align: center;
 }
 
+.margen{
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flexbox;
+    margin: auto;
+}
+
 footer{
+    display: contents;
     align-items: center;
 }
 
 .zapa{
     display: block;
     margin: auto;
-    border-radius: 10%;
+    border-radius: 35%;
     width: 35%;
     height: 35%;
+    animation: latido;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
 }
 
 .foot{
@@ -34,8 +45,30 @@ footer{
     justify-content: left;
 }
 
-@media ( (max-width: 300px)){
+@media ( (min-width: 300px)){
     body{
         background-color: wheat ;
     }
+}
+
+/*-------EFECTOS--------*/
+
+@keyframes latido {
+
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(0);
+    }
+    
 }
