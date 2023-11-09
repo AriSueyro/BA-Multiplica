@@ -1,5 +1,5 @@
 body{
-    background-image: url(Imagenes/Fondo8.jpg);
+    background-image: url('Imagenes/Fondo8.jpg');
     background-size: auto;
     cursor: cell ;
 }
