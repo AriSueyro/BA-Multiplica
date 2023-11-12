@@ -1,7 +1,9 @@
 body{
-    background-image: url('../Imagenes/Fondo8.jpg');
+    background: linear-gradient(rgba(5,7,12,0.35), rgba(5,7,12, 0.35)),
+    url('../Imagenes/Fondo8.jpg');
     background-size: auto;
     cursor: cell ;
+
 }
 .pipa{
     display: block;
