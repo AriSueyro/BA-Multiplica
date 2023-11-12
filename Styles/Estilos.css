@@ -31,6 +31,44 @@ footer{
     align-items: center;
 }
 
+.modal-container{
+    display: flex;
+    background-color: rgba(5,7,12, 0.35);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.Modal{
+    background-color: white;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(5,7,12, 0.75);
+    text-align: center;
+}
+
+.modal h1{
+    margin: 0;
+}
+
+.modal p{
+    opacity: 0.7;
+    font-size: 14px;
+}
+
 .zapa{
     display: block;
     margin: auto;
@@ -46,6 +84,8 @@ footer{
     text-align: left;
     justify-content: left;
 }
+
+
 
 @media ( (min-width: 300px)){
     body{

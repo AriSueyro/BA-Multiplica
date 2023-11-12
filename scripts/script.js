@@ -1,6 +1,12 @@
-let numeros = [4,5,7,9,15]
+const open = document.getElementById("open")
+const modal_container = document.getElementById("modal_container")
+const close = document.getElementById("close")
 
-let encontrado = []
+open.addEventListener("click", () => {
+    modal_container.classList.add("show")
+});
 
-encontrado = numeros.find(n => n>7)
-console.log(encontrado)
+
+close.addEventListener("click", () => {
+    modal_container.classList.remove("show")
+});

@@ -22,21 +22,13 @@
     <a class="navbar-brand me-2" href="https://mdbgo.com/">
     </a>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarButtonsExample"
-      aria-controls="navbarButtonsExample"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-    </button>
+
 
       <div class="d-flex align-items-center">
-        <button type="button" class="btn btn-dark">
+        <button id="open" type="button" class="btn btn-dark">
           Ingresar
         </button>
-        <button type="button" class="btn btn ">
+        <button id="open" type="button" class="btn btn ">
           Registrarse
         </button>
       </div>
@@ -53,6 +45,26 @@
 
     <img src="Imagenes/nike.png" alt="" class="zapa" />
     <br />
+    
+    <div class="modal-container" id="modal_container">
+      <div class="Modal">
+        <h1>Iniciar Sesion</h1>
+        <form action="">
+          Usuario
+          <input type="text" name="Usuario">
+          <br>
+          Constraseña
+          <input type="password">
+        </form>
+        <button id="close" class="btn btn-dark">Cerrar</button>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h1>Registrarse</h1>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
   </body>
 
   <footer class="bg-light text-center text-lg-start">
