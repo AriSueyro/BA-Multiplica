@@ -50,6 +50,12 @@ footer{
     opacity: 1;
 }
 
+.shows{
+    pointer-events: auto;
+    opacity: 1;
+    transition: opacity 5s;    
+}
+
 .Modal{
     background-color: white;
     box-sizing: border-box;
