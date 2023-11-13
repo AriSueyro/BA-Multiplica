@@ -110,7 +110,7 @@ footer{
     body{
         background: linear-gradient(rgba(5,7,12,0.35), rgba(5,7,12, 0.35)),
         url('../Imagenes/Fondo8.jpg');
-        background-repeat: round;
+        background-repeat: no-repeat;
     }
     .foot{
         text-align: left;
