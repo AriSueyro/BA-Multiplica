@@ -26,7 +26,7 @@ close2.addEventListener("click", () => {
 });
 
 registrarse.addEventListener("click", () => {
-    modal_container3.classList.add("show")  
+    modal_container3.classList.add("show")
 });
 
 
