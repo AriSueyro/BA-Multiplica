@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="Imagenes/nike.png" type="image/x-icon">
-    <link rel="stylesheet" href="Styles/Estilos.css" />
-    <title>Nike</title>
-  </head>
-  <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- Container wrapper -->
-  <div class="container">
-    <!-- Navbar brand -->
-    <a class="navbar-brand me-2" href="https://mdbgo.com/">
-    </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="Imagenes/nike.png" type="image/x-icon">
+  <link rel="stylesheet" href="Styles/Estilos.css" />
+  <title>Nike</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand me-2" href="https://mdbgo.com/">
+      </a>
 
 
 
@@ -28,49 +26,78 @@
         <button id="open" type="button" class="btn btn-dark">
           Ingresar
         </button>
-        <button id="open" type="button" class="btn btn ">
+        <button id="open1" type="button" class="btn btn ">
           Registrarse
         </button>
       </div>
     </div>
-  </div>
-</nav>
-    <div class="margen">
-    <div class="pipa"><h2>NIKE</h2></div>
+    </div>
+  </nav>
+  <div class="margen">
+    <div class="pipa">
+      <h2>NIKE</h2>
+    </div>
     <span class="pipa">
       <img src="Imagenes/nike.png" alt="" class="pipa" />
     </span>
     <h2>Just Do It</h2>
   </div>
 
-    <img src="Imagenes/nike.png" alt="" class="zapa" />
-    <br />
-    
-    <div class="modal-container" id="modal_container">
-      <div class="Modal">
-        <h1>Iniciar Sesion</h1>
-        <form action="">
+  <img src="Imagenes/nike.png" alt="" class="zapa" />
+  <br />
+
+  <div class="modal-container" id="modal_container">
+    <div class="Modal">
+      <h1>Iniciar Sesion</h1>
+      <div class="inicio">
+        <form class="inicio" action="">
           Usuario
-          <input type="text" name="Usuario">
+          <input type="text" name="Usuario" placeholder="Usuario">
           <br>
           Constraseña
-          <input type="password">
+          <input type="Password" placeholder="Contraseña">
         </form>
-        <button id="close" class="btn btn-dark">Cerrar</button>
       </div>
+      <br>
+      <br>
+      <button class="btn btn-dark" type="submit">Ingresar</button>
+      <button id="close" class="btn btn-dark">Cerrar</button>
     </div>
-    <div>
-      <div>
-        <h1>Registrarse</h1>
-      </div>
-    </div>
-    <script src="scripts/script.js"></script>
-  </body>
+  </div>
 
-  <footer class="bg-light text-center text-lg-start">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      Nike © 2023:
-      <a class="text-dark" href="">Catalogo</a>
+
+  <div div class="modal-container" id="modal_container2">
+    <div class="Modal">
+      <h1>Registrarse</h1>
+      <div class="inicio">
+        <form action="" class="inicio">
+          Nombre
+          <input type="text" placeholder="Juan">
+          <br>
+          Apellido
+          <input type="text" placeholder="Perez">
+          <br>
+          Email
+          <br>
+          <input type="email" placeholder="Email@email.com">
+          <br>
+          <br>
+          <button class="btn btn-dark" type="submit">Enviar</button>
+          <button id="close2" class="btn btn-dark" type="button">Cancelar</button>
+
+      </div>
+      </form>
     </div>
-  </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+
+<footer class="bg-light text-center text-lg-start">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    Nike © 2023:
+    <a class="text-dark" href="">Catalogo</a>
+  </div>
+</footer>
+
 </html>
