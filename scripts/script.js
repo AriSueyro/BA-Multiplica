@@ -7,6 +7,7 @@ const close = document.getElementById("close")
 const open1 = document.getElementById("open1")
 const close2 = document.getElementById("close2")
 const registrarse = document.getElementById("registrarse")
+const catalogo = document.getElementById("catalogo")
 
 
 open.addEventListener("click", () => {
@@ -27,6 +28,10 @@ close2.addEventListener("click", () => {
 
 registrarse.addEventListener("click", () => {
     modal_container3.classList.add("show")
+});
+
+catalogo.addEventListener("click", () => {
+    alert("Aca deberia descargarse el catalogo...")
 });
 
 
