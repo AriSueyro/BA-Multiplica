@@ -5,6 +5,13 @@ body{
     cursor: cell ;
 
 }
+
+.container{
+    background-color: rgba(209, 157, 24, 0.35);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pipa{
     display: block;
     margin: auto;
