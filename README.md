@@ -1,7 +1,7 @@
 # BA-Multiplica
 BA MULTIPLICA 4.0
 <h1 align="center">Hi 👋, I'm Ariel</h1>
-<h3 align="center">Un arduo estudiante de programación</h3>
+<h3 align="center">I am a committed student in the field of programming</h3>
 
 - 🔭 I’m currently working on **BA Multiplica 2.0**
 
@@ -11,7 +11,7 @@ BA MULTIPLICA 4.0
 
 - 📫 How to reach me **asueyro@gmail.com**
 
-- ⚡ Fun fact **Soy una persona relajadisima**
+- ⚡ Fun fact **Im a very chill person**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
